@@ -1,0 +1,14 @@
+{
+  "name": "Test Working Claude",
+  "description": "Test Working Claude is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://test-working-claude.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Test Working Claude",
+      "description": "Test Working Claude is a Base Mini App built with Zara.",
+      "url": "https://test-working-claude.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

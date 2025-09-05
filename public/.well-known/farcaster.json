@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Test Working Claude",
+    "subtitle": "Built with Zara",
+    "description": "Test Working Claude is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://testworkingclaude-htnw.vercel.app",
+    "splashImageUrl": "https://testworkingclaude-htnw.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://testworkingclaude-htnw.vercel.app/image.png",
+    "tagline": "Test Working Claude",
+    "screenshotUrls": [
+      "https://testworkingclaude-htnw.vercel.app/screenshot.png",
+      "https://testworkingclaude-htnw.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://testworkingclaude-htnw.vercel.app/api/webhook"
+  }
+}
