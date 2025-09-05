@@ -1,12 +1,20 @@
 {
-  "name": "base-mini-app",
-  "version": "0.1.0",
+  "name": "test-working-claude",
+  "version": "1.0.0",
   "private": true,
+  "description": "A production-ready Base Mini App with counter functionality",
+  "keywords": ["base", "miniapp", "onchainkit", "nextjs", "counter"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "next": "15.1.0",
@@ -17,10 +25,29 @@
     "typescript": "^5.0.0",
     "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.294.0",
+    "react-hot-toast": "^2.4.1",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.0",
-    "postcss": "^8.0.0"
+    "postcss": "^8.0.0",
+    "@next/bundle-analyzer": "^14.0.0",
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.1.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@types/jest": "^29.5.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
